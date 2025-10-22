@@ -2,7 +2,7 @@ import useMacbookStore from "../store";
 import clsx from "clsx";
 import { Canvas } from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
-import StudioLights from "./three/StudioLight.jsx";
+import StudioLights from "./three/StudioLights.jsx";
 import ModelSwitcher from "./three/ModelSwitcher.jsx";
 
 const ProductViewer = () => {
